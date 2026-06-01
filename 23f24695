@@ -22,6 +22,10 @@ Case 3:
    Display "Engineering Sector"
    Break
 
+Case 4:
+   Display "Finance Sector"
+   Break
+
 Default:
    Display "Invalid Sector"
 
