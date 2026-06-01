@@ -25,7 +25,7 @@ Case 3:
 Default:
    Display "Invalid Sector"
 
-IF DemandIncrease > 20 THEN
+IF DemandIncrease > 25 THEN
    Display "High Demand Alert"
 ELSE
    Display "Normal Demand"
