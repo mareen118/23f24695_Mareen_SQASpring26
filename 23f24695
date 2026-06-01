@@ -1,0 +1,35 @@
+START
+
+Display:
+1. IT
+2. Healthcare
+3. Engineering
+
+Input Sector
+Input DemandIncrease
+
+SWITCH(Sector)
+
+Case 1:
+   Display "IT Sector"
+   Break
+
+Case 2:
+   Display "Healthcare Sector"
+   Break
+
+Case 3:
+   Display "Engineering Sector"
+   Break
+
+Default:
+   Display "Invalid Sector"
+
+IF DemandIncrease > 20 THEN
+   Display "High Demand Alert"
+ELSE
+   Display "Normal Demand"
+
+END IF
+
+STOP
