@@ -30,7 +30,7 @@ int main()
             cout << "Invalid Sector" << endl;
     }
 
-   if(demandIncrease > 25)
+ if(demandIncrease > 25)
     {
         cout << "High Demand Alert" << endl;
     }
