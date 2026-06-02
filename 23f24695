@@ -25,6 +25,10 @@ int main()
         case 3:
             cout << "Engineering Sector" << endl;
             break;
+   
+     case 4:
+     cout << "Finance Sector" << endl;
+    break;
 
         default:
             cout << "Invalid Sector" << endl;
